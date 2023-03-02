@@ -1,5 +1,7 @@
 {
   "name": "rotate-aws-key",
+  "homepage": "https://github.com/safinn/rotate-aws-key",
+  "bugs": "https://github.com/safinn/rotate-aws-key/issues",
   "type": "module",
   "sideEffects": false,
   "exports": {
