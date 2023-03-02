@@ -1,0 +1,45 @@
+{
+  "name": "rotate-aws-key",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "rotate-aws-key": "/dist/index.cjs"
+  },
+  "scripts": {
+    "build": "unbuild"
+  },
+  "unbuild": {
+    "failOnWarn": false
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "author": "safinn",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-iam": "^3.279.0",
+    "@aws-sdk/credential-providers": "^3.279.0",
+    "@clack/prompts": "^0.6.1",
+    "date-fns": "^2.29.3",
+    "minimist": "^1.2.8",
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "unbuild": "^1.1.2"
+  }
+}
