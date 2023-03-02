@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://npmjs.com/package/vite"><img src="https://img.shields.io/npm/v/rotate-aws-key.svg" alt="npm package"></a>
+  <a href="https://npmjs.com/package/rotate-aws-key"><img src="https://img.shields.io/npm/v/rotate-aws-key.svg" alt="npm package"></a>
   <a href="https://nodejs.org/en/about/releases/"><img src="https://img.shields.io/npm/dm/rotate-aws-key" alt="npm downloads"></a>
 </p>
 
